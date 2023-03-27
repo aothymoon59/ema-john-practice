@@ -4,9 +4,9 @@ import "./Header.css";
 
 const Header = () => {
   return (
-    <nav className="header bg-[#1C2B35] flex h-20 px-[100px] py-0 items-center justify-between">
-      <img src={img} alt="" />
-      <div className="flex gap-7 text-white">
+    <nav className="header bg-[#1C2B35] flex h-20 px-5 lg:px-[100px] py-0 items-center gap-4 justify-between">
+      <img className="w-24 lg:w-32" src={img} alt="" />
+      <div className="flex gap-3 lg:gap-7 text-white">
         <a className="hover:text-orange-400" href="">
           Shop
         </a>
