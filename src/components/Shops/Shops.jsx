@@ -18,8 +18,8 @@ const Shops = () => {
       .then((data) => setProducts(data));
   }, []);
   return (
-    <div className="grid grid-cols-[4fr,1fr]">
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-11 py-12 pl-5 lg:pl-[100px] pr-3 lg:pr-12">
+    <div className="grid grid-cols-[4fr,1fr] h-[100vh]">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-11 py-12 pl-5 lg:pl-[100px] pr-3 lg:pr-12 scrollable">
         {products.map((product) => (
           <Product
             handleAddToCart={handleAddToCart}

@@ -1,0 +1,10 @@
+.scrollable {
+    overflow-y: scroll;
+    /* hide the scrollbar */
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.scrollable::-webkit-scrollbar {
+    display: none;
+}
